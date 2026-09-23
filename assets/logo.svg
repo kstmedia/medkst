@@ -3,16 +3,11 @@
     <style>
       /* Estilos para el bloque KST (Letras gruesas) */
       .logo-k { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; fill: #31AD68; }
-      .logo-st { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; fill: #000000; }
+      .logo-st { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; fill: #1D1D1B; }
 
       /* Estilos para la palabra media (Letras delgadas) */
       .logo-m { font-family: 'Helvetica Neue', 'Arial', sans-serif; font-weight: 100; fill: #31AD68; }
-      .logo-edia { font-family: 'Helvetica Neue', 'Arial', sans-serif; font-weight: 100; fill: #000000; }
-
-      /* Soporte automático para Modo Oscuro en la web */
-      @media (prefers-color-scheme: dark) {
-        .logo-st, .logo-edia { fill: #ffffff; }
-      }
+      .logo-edia { font-family: 'Helvetica Neue', 'Arial', sans-serif; font-weight: 100; fill: #1D1D1B; }
     </style>
   </defs>
 
