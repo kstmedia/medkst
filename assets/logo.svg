@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 160" width="100%" height="100%">
+  <defs>
+    <style>
+      /* Estilos para el bloque KST (Letras gruesas) */
+      .logo-k { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; fill: #31AD68; }
+      .logo-st { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; fill: #000000; }
+
+      /* Estilos para la palabra media (Letras delgadas) */
+      .logo-m { font-family: 'Helvetica Neue', 'Arial', sans-serif; font-weight: 100; fill: #31AD68; }
+      .logo-edia { font-family: 'Helvetica Neue', 'Arial', sans-serif; font-weight: 100; fill: #000000; }
+
+      /* Soporte automático para Modo Oscuro en la web */
+      @media (prefers-color-scheme: dark) {
+        .logo-st, .logo-edia { fill: #ffffff; }
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(10, 125)">
+    <!-- Una única cadena de texto continua "KSTmedia": sin reposicionamientos (x)
+         ni saltos de línea entre tspans, para que no se cuele ningún espacio
+         entre letras ni entre "KST" y "media". El tamaño y el tracking distintos
+         de cada bloque se aplican por tspan, pegados unos a otros. -->
+    <text font-size="140"><tspan letter-spacing="-4" class="logo-k">K</tspan><tspan letter-spacing="-4" class="logo-st">ST</tspan><tspan font-size="115" letter-spacing="-2" class="logo-m">m</tspan><tspan font-size="115" letter-spacing="-2" class="logo-edia">edia</tspan></text>
+  </g>
+</svg>

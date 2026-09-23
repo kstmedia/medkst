@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <style>
+      .text-k { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; fill: #31AD68; }
+      .text-st { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; fill: #000000; }
+      /* En modo oscuro, ST pasa a blanco para mantener contraste */
+      @media (prefers-color-scheme: dark) {
+        .text-st { fill: #ffffff; }
+      }
+    </style>
+  </defs>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="210" letter-spacing="-10">
+    <tspan class="text-k">K</tspan><tspan class="text-st">ST</tspan>
+  </text>
+</svg>
