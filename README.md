@@ -89,3 +89,4 @@ npx serve .
 - `prefers-reduced-motion` respetado; menú móvil accesible por teclado.
 - Tablas largas (`privacidad.html`, `cookies.html`, `aviso-legal.html` y artículos del blog) van envueltas en `.table-scroll` para que se puedan desplazar horizontalmente en móvil sin romper el ancho de la página.
 - `vercel.json` redirige `/index.html` a `/` (301) para evitar contenido duplicado entre ambas URLs — la home solo existe en `/`, que es la que declara la etiqueta canonical.
+- `llms.txt` en la raíz del sitio: resumen del negocio y enlace a cada página/artículo, en el formato que leen los crawlers de IA (GEO) — recomendado por la auditoría de Katapulta.
