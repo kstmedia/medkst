@@ -88,3 +88,4 @@ npx serve .
 - Vídeo del hero servido desde Wistia (`loading="lazy"` en el `iframe`), fuera del repositorio para no pesar el proyecto.
 - `prefers-reduced-motion` respetado; menú móvil accesible por teclado.
 - Tablas largas (`privacidad.html`, `cookies.html`, `aviso-legal.html` y artículos del blog) van envueltas en `.table-scroll` para que se puedan desplazar horizontalmente en móvil sin romper el ancho de la página.
+- `vercel.json` redirige `/index.html` a `/` (301) para evitar contenido duplicado entre ambas URLs — la home solo existe en `/`, que es la que declara la etiqueta canonical.
